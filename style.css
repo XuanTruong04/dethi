@@ -1,0 +1,288 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+--root {
+    --color1: #ea2883;
+}
+
+/* Phần đăng ký, trợ giúp, đăng nhập */
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_item {
+    margin: 8px 8px;
+    font-size: 18px;
+}
+
+.nav_item a:hover {
+    opacity: 30%;
+}
+
+.nav_line {
+    border-right: 1px solid;
+    padding-right: 15px;
+}
+
+/* Phần logo, tìm kiếm, giỏ hàng */
+#search {
+    display: flex;
+    height: 40px;
+    margin: 5px 0px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.search_text {
+    flex: 4;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(137, 53, 69);
+}
+
+.search_icon {
+    flex: 2;
+    border-radius: 8px;
+    margin: 0px 10px;
+    color: rgb(137, 53, 69);
+    border: 1px solid rgb(137, 53, 69);
+}
+
+.search_icon:hover {
+    opacity: 30%;
+}
+
+/* Menu ngang */
+#nav_main {
+    height: 40px;
+    font-weight: bold;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_li a{
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+.nav_li a:hover {
+    opacity: 30%;;
+}
+
+/* Banner */
+#banner {
+    margin-top: 0;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main content */
+#main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.content_top {
+    flex: 2;
+}
+
+.content_title {
+    font-size: 25px;
+    margin: 18px 0px;
+    font-weight: bold;
+    background-color: rgb(137, 53, 69);
+    padding: 10px;
+    color: #fff;
+    width: 300px;
+}
+
+.content_frame {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.content_item {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_item img {
+    width: 200px;
+    height: 250px;
+}
+
+.content_item .product {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.content_item .price {
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+}
+
+.content_item .buy_button {
+    border: 1px solid rgb(137, 53, 69);
+    color: rgb(137, 53, 69);
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.buy_button:hover {
+    background-color: rgb(137, 53, 69);
+    color: #fff;
+}
+
+.news-sidebar {
+    flex: 1;
+    background: #fff8f5;
+}
+
+.news_item {
+    display: flex;
+}
+
+.news_item .reason {
+    flex: 1;
+}
+
+.news_item h5 {
+    flex: 1;
+    margin: 0;
+}
+
+.news_item img {
+    width: 200px;
+    height: 150px;
+}
+
+.content_bottom_h2 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.content_bottom {
+    display: flex;
+}
+
+.content_bottom_text {
+    display: flex;
+}
+
+.content_bottom_why {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff8f5;
+    width: auto;
+    height: auto;
+}
+.content_bottom_img img {
+    width: 100%;
+    height: 250px;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    background-color: rgb(133, 2, 54);
+    color: #fff;
+}
+
+#footer {
+    display: flex;
+    padding: 10px;
+}
+
+.footer1 {
+    flex: 1;
+    line-height: 1.7;
+    padding-right: 15px;
+}
+
+.footer1 a {
+    display: block;
+}
+
+.footer1 img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+
+/*Đăng nhập*/
+
+.btn-ct {
+    padding: 8px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.mb10 {
+    margin: 10px 0;
+}
+
+.lb {
+    display: inline-block;
+    width: 150px;
+}
+
+.tmnd {
+    font-size: 24px;
+}
